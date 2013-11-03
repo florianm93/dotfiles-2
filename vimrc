@@ -15,3 +15,7 @@ set ignorecase
 set smartcase
 set hlsearch
 colo ron
+
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
