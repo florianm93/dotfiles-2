@@ -14,8 +14,9 @@ set incsearch
 set ignorecase
 set smartcase
 set hlsearch
-colo ron
+colo desert
 
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+let g:pydiction_location = '/home/david/.vim/bundle/pydiction/complete-dict'
